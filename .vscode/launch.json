@@ -1,0 +1,13 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Run Traffic Signal App",
+            "request": "launch",
+            "mainClass": "main.TrafficSignalApp",
+            "projectName": "projeeect",
+            "cwd": "${workspaceFolder}"
+        }
+    ]
+}
