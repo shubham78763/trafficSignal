@@ -15,7 +15,9 @@ public class CSVFileHandler {
             bufferedWriter = new BufferedWriter(writer);
             
             for (String line : data) {
+                
                 bufferedWriter.write(line);
+                
                 bufferedWriter.newLine();
             }
             
@@ -77,3 +79,5 @@ public class CSVFileHandler {
         return records;
     }
 }
+
+
